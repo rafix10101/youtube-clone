@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang ="pl">
+  <head>
+    <title>flexbox practice</title>  
+
+    <style>
+      .flexbox1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+      }
+      .div1{
+        background-color: lightcoral;
+        width: 100px;
+      }
+      .div2{
+        background-color: lightblue;
+      }
+
+      .flexbox2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+      .div3{
+        background-color: lightcoral;
+        width: 150px;
+      }
+      .div4{
+        background-color: lightblue;
+      }
+      .flexbox3{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+      }
+      .div5{
+        background-color: lightcoral;
+        width: 150px;
+      }
+      .div6{
+        background-color: lightblue;
+        flex: 1;
+      }.div7{
+        background-color:  lightcoral;
+        flex: 2;
+      }
+      .flexbox4{
+        border: solid;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        justify-content: center;
+        height: 100px;
+      }
+      .div8{
+        background-color: lightcoral;
+        width: 150px;
+        height: 50px;
+      }
+      .div9{
+        background-color: lightblue;
+        width: 150px;
+        height: 50px;
+      }.div10{
+        background-color:  lightcoral;
+        width: 150px;
+        height: 50px;
+      }
+
+      .flexbox5{
+        border: solid;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        height: 100px;
+      }
+
+      .flexbox6{
+        border: solid;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+      }
+
+
+
+    </style>
+
+  </head>
+  <body>  
+    <div class="flexbox1">
+      <div class="div1"> 100px</div>
+      <div class="div2">
+        1st row
+        <p>
+          xd paragrap
+        </p>
+      </div>
+    </div>
+
+    <div class="flexbox2">
+      <div class="div3"> row oriented 150px </div>
+      <div class="div4">normal</div>
+    </div>
+    
+    <div class="flexbox3">
+      <div class="div5"> 150px</div>
+      <div class="div6"> flex 1</div>
+      <div class="div7"> flex 2</div>
+    </div>
+
+
+    <div class="flexbox4">
+      <div class="div8"> justify-content center 150px</div>
+      <div class="div9">150px</div>
+      <div class="div10"> 150px </div>
+    </div>
+   
+    <div class="flexbox5">
+      <div class="div8"> justify-content space-between 150px</div>
+      <div class="div9">150px</div>
+      <div class="div10"> 150px </div>
+    </div>
+
+    <div class="flexbox6">
+      <div class="div8"> justify-content space-between 150px</div>
+      <div class="div9">150px align-items center</div>
+      <div class="div10"> 150px </div>
+    </div>
+
+
+
+  </body>
+
+</html>
